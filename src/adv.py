@@ -56,6 +56,7 @@ player = Player("Emily", room['outside'])
 
 
 def print_no_room(d):
+    print("---------------------------------------------")
     print(f"There is no room {d:s} of current room")
 
 shouldexit = False
